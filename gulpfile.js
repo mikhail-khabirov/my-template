@@ -97,7 +97,7 @@ const sprite = () => {
       inlineSvg: true
     }))
     .pipe(rename('sprite.svg'))
-    .pipe(gulp.dest('build/img', 'source/img'));
+    .pipe(gulp.dest('build/img'));
 }
 
 // Pug
